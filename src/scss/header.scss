@@ -1,0 +1,61 @@
+$var1: #FDFDFB;
+$var2: #333333;
+$var3: #E6C8B4;
+
+.header {
+	padding: 0;
+	background-color: $var1;
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+		&-list {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 31px 0 26px 0;
+			margin: 0;
+		}
+		&-link {
+			list-style-type: none;
+			margin-left: 65px;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 16px;
+			color: $var2;
+			cursor: pointer;
+		}
+	}
+	&__icon {
+		display: flex;
+		align-items: center;
+	}
+	&__logo {
+		margin-right: 23px;
+		cursor: pointer;
+	}
+	&__like {
+		margin-right: 23px;
+		position: relative;
+		width: 20px;
+		height: 18px;
+		display: inline-block;
+        background: url("/img/Vector (1).svg") 0 0 no-repeat;
+		cursor: pointer;
+    }
+		span {
+			padding: 2px 4px;
+			border-radius: 50%;
+			background-color: $var3;
+			position: absolute;
+			right: -8px;
+			top: -3px;
+			font-size: 8px;
+			line-height: 9px;
+			text-align: center;
+			vertical-align: middle;
+			font-weight: 400;
+		}
+}
+
+
+

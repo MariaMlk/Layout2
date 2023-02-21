@@ -1,0 +1,36 @@
+$var1: #444240;
+$var2: #FFFFFF;
+
+.footer {
+	background-color: $var1;
+	&__items {
+		padding: 67px 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__logo {
+		position: relative;
+		top: -15px;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+		color: $var2;
+		margin-bottom: 33px;
+	}
+	&__list {
+		list-style-type: none;
+		padding: 0;
+	}
+	&__link {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		color: rgba(255, 255, 255, 0.75);
+		margin-bottom: 15px;
+		cursor: pointer;
+	}
+}

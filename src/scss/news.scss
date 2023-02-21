@@ -1,0 +1,49 @@
+$var1: #1B1A17;
+$var2: #444240;
+
+.news {
+	margin-top: 81px;
+	&__items {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		display: flex;
+		&1 {
+			width: 245px;
+			align-items: center;
+			margin-right: 5px;
+			margin-bottom: 90px;
+		}
+	}
+	&__img {
+		margin-bottom: 5px;
+		&3 {
+			width: 377px;
+			height: 460px;
+		}
+	}
+	&__text {
+		justify-content: center;
+		align-items: center;
+	}
+	&__title {
+		font-family: 'Playfair Display';
+		margin-top: 140px;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 43px;
+		color: $var1;
+	}
+	&__subtitle {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 27px;
+		color: $var2;
+		margin: 40px 0 118.67px 0;
+		&>span {
+			font-weight: 700;
+			cursor: pointer;
+		}
+	}
+}

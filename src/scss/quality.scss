@@ -1,0 +1,61 @@
+$var1: #1B1A17;
+$var2: #444240;
+$var3: #D4B098;
+$var4: #FFFFFF;
+
+.quality {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	&__lines {
+		position: absolute;
+		left: 467px;
+		z-index: 1;
+	}
+	&__arrow {
+		margin-left: 20px;
+		cursor: pointer;
+	}
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 52px;
+		left: 177px;
+		z-index: 2;
+	}
+	&__text {
+		margin: 100px 0 0 69px;
+	}
+	&__title {
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 43px;
+		color: $var1;
+	}
+	&__subtitle {
+		width: 376px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 150%;
+		color: $var2;
+		margin: 38px 0 45px 0;
+	}
+	&__btn {
+		width: 205px;
+		height: 64px;
+		background: $var3;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.05em;
+		color: $var4;
+		border: 0;
+		cursor: pointer;
+	}
+}
+.arrows {
+	margin-top: 20px;
+	margin-left: 380px;
+}

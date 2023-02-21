@@ -1,0 +1,65 @@
+$var1: #1B1A17;
+$var2: #444240;
+
+.popular__title {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 43px;
+	color: $var1;
+	text-align: center;
+	margin: 49px 0 0px 0;
+}
+.popular__subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: $var2;
+	text-align: right;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.popular__items {
+	display: flex;
+	justify-content: space-between;
+}
+.popular__item__title {
+	font-family: 'Playfair Display';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: rgba(27, 26, 23, 0.82);
+	margin-top: 117px;
+}
+.popular__item__price {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: rgba(27, 26, 23, 0.82);
+}
+.popular__item__images {
+	position: relative;
+}
+.popular__item__image2 {
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	z-index: 2;
+}
+.popular__item__subtitle {
+	font-family: 'Playfair Display';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: $var1;
+	margin-bottom: 126px;
+	margin-top: 20px;
+	cursor: pointer;
+	&:before {
+		content: url(/img/Line.png);
+		margin-right: 17px;
+		position: relative;
+		top: -4px;
+	}
+}
